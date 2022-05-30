@@ -9,7 +9,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 15%; 
 }
 
 h1 {
@@ -67,17 +67,22 @@ p {
 
 .title-image{
     /* width: 50%; */
+    margin-top: 5%;
+    margin-left: 30%;
     transform: rotate(25deg);
     -webkit-transform: rotate(25deg);
     -moz-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
+    position: absolute;
 }
 
 /* Features Section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -125,4 +130,15 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 10%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
